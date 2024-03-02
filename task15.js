@@ -33,13 +33,12 @@ const books =[
 }
 ]
 
-for (let book1 =0; book1 <books.length; book1++) {
-    // var statuse = ['true','false']
-    // var filteredData = books.filter(function(item) {
-    //     if (statuse.indexOf(books.reading) != false) return item;
-    //  //   return statuse.indexOf(item.reading) != true;
-    //   });
-      
-      console.log(book1);
+for (let book1 = 0; book1 < books.length; book1++) {
+    const bookss = books[book1];
+
+    if (bookss.reading === true){
+        console.log (bookss)
+    }
+    
 
     }
